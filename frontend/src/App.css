@@ -1,0 +1,104 @@
+/* Premium Gradient Patterned Background */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right top, #4d88ff, #ff69b4);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.report_btn {
+  background-color: white;
+  height: 30px;
+  width: 80px;
+  float: right;
+  margin: 10px;
+  /* position: absolute; */
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #343a40; /* Set default text color */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.content {
+  padding: 20px; /* Add padding for content */
+}
+
+h1 {
+  color: #343a40;
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p {
+  color: #6c757d;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #343a40;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.input-group input[type="text"]:focus,
+.input-group input[type="email"]:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-image: linear-gradient(to right, #ff69b4, #4d88ff);
+  width: 200px;
+}
+
+.button:hover {
+  background-image: linear-gradient(to right, #4d88ff, #ff69b4);
+}
